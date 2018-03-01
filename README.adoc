@@ -10,3 +10,9 @@ can install one version of premake only.
  $ brew tap tonyseek/premake
  $ brew install tonyseek/premake/premake4
  $ brew install tonyseek/premake/premake5
+
+== License
+
+This repository is forked from the official formula of homebrew-core. All
+changes made by the owner of this repository have been licensed under CC0
+(Public Domain).
