@@ -1,0 +1,12 @@
+= Homebrew Premake
+
+This repository included Homebrew formulas to install different versions of
+link:https://premake.github.io/[premake], since the Homebrew official formula
+can install one version of premake only.
+
+== Installation
+
+ $ brew uninstall premake
+ $ brew tap tonyseek/premake
+ $ brew install tonyseek/premake/premake4
+ $ brew install tonyseek/premake/premake5
