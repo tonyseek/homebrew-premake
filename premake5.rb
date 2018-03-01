@@ -6,6 +6,8 @@ class Premake5 < Formula
   version_scheme 1
   head "https://github.com/premake/premake-core.git"
 
+  conflicts_with "premake", :because => "both install premake4 or premake5"
+
   def install
     if build.head?
       system "make", "-f", "Bootstrap.mak", "osx"
